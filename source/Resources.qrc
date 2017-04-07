@@ -1,0 +1,56 @@
+<RCC>
+    <qresource prefix="/">
+        <file>IMG/assets 2/device/device_bg.png</file>
+        <file>IMG/assets 2/display/display_1_bg.png</file>
+        <file>IMG/assets 2/bg/bg_texture.png</file>
+        <file>IMG/assets 2/leds/indicator_blue.png</file>
+        <file>IMG/assets 2/leds/indicator_off.png</file>
+        <file>IMG/assets 2/leds/indicator_on.png</file>
+        <file>IMG/assets 2/display small/display_small_bg.png</file>
+        <file>IMG/assets 2/slider/lider_active_hover.png</file>
+        <file>IMG/assets 2/slider/lider_normal.png</file>
+        <file>IMG/assets 2/audioprocessor/DAP_frame.png</file>
+        <file>IMG/assets 2/knob/knob_body.png</file>
+        <file>IMG/assets 2/knob/knob_pointer.png</file>
+        <file>IMG/assets 2/knob/marking_left.png</file>
+        <file>IMG/assets 2/knob/marking_right.png</file>
+        <file>IMG/assets 2/radiobutton/radiobatton_selected.png</file>
+        <file>IMG/assets 2/checkbox/checkbox_checked.png</file>
+        <file>IMG/assets 2/checkbox/checkbox_disabled.png</file>
+        <file>IMG/assets 2/checkbox/checkbox_normal.png</file>
+        <file>IMG/assets 2/radiobutton/radiobatton_normal.png</file>
+        <file>IMG/assets 2/checkbox/checkbox_disabled_checked.png</file>
+        <file>IMG/assets 2/bg/line_bg.png</file>
+        <file>IMG/assets 2/ScrollBar/down.png</file>
+        <file>IMG/assets 2/ScrollBar/up.png</file>
+        <file>IMG/assets 2/About/popup_bg.png</file>
+        <file>IMG/assets 2/About/popup_bg_1.png</file>
+        <file>IMG/Merus_alfa_logo.png</file>
+        <file>IMG/assets 2/checkbox/checkbox_disabled_checked_blue.png</file>
+        <file>IMG/assets 2/buttons_new/l_round_hover.png</file>
+        <file>IMG/assets 2/buttons_new/l_round_normal.png</file>
+        <file>IMG/assets 2/buttons_new/l_round_pressed.png</file>
+        <file>IMG/assets 2/buttons_new/lr_round_disable.png</file>
+        <file>IMG/assets 2/buttons_new/lr_round_hover.png</file>
+        <file>IMG/assets 2/buttons_new/lr_round_normal.png</file>
+        <file>IMG/assets 2/buttons_new/lr_round_pressed.png</file>
+        <file>IMG/assets 2/buttons_new/r_round_hover.png</file>
+        <file>IMG/assets 2/buttons_new/r_round_normal.png</file>
+        <file>IMG/assets 2/buttons_new/r_round_pressed.png</file>
+        <file>IMG/assets 2/buttons_new/reconnect_disable.png</file>
+        <file>IMG/assets 2/buttons_new/reconnect_hover.png</file>
+        <file>IMG/assets 2/buttons_new/reconnect_normal.png</file>
+        <file>IMG/assets 2/buttons_new/reconnect_pressed.png</file>
+        <file>IMG/assets 2/buttons_new/rounded_disable.png</file>
+        <file>IMG/assets 2/buttons_new/rounded_hover.png</file>
+        <file>IMG/assets 2/buttons_new/rounded_normal.png</file>
+        <file>IMG/assets 2/buttons_new/rounded_pressed.png</file>
+        <file>IMG/assets 2/buttons_new/square_disable.png</file>
+        <file>IMG/assets 2/buttons_new/square_hover.png</file>
+        <file>IMG/assets 2/buttons_new/square_normal.png</file>
+        <file>IMG/assets 2/buttons_new/square_pressed.png</file>
+        <file>IMG/meruslogo_32.png</file>
+        <file>IMG/meruslogo_64.png</file>
+        <file>IMG/meruslogo_128.png</file>
+    </qresource>
+</RCC>

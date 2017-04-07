@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DAsetupDialog</class>
+ <widget class="QDialog" name="DAsetupDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>620</width>
+    <height>420</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>620</width>
+    <height>420</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>620</width>
+    <height>420</height>
+   </size>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::NoContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>I2S setup</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Resources.qrc">
+    <normaloff>:/mlogo3_resized_300x234.png</normaloff>:/mlogo3_resized_300x234.png</iconset>
+  </property>
+  <property name="window_background" stdset="0">
+   <string>wind__background</string>
+  </property>
+  <widget class="QFrame" name="verticalFrame">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>261</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label_2_DA">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>I2S FORMAT</string>
+      </property>
+      <property name="lable_radio_butto_header" stdset="0">
+       <string>set</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="I2Sradio">
+      <property name="text">
+       <string>I2S</string>
+      </property>
+      <property name="simpl_radio_but" stdset="0">
+       <string>set</string>
+      </property>
+      <property name="radio_but_I2S_unchecked" stdset="0">
+       <string>unchecked</string>
+      </property>
+      <property name="radio_but_I2S_checked" stdset="0">
+       <string>checked</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="LeftRadio">
+      <property name="text">
+       <string>Left justified</string>
+      </property>
+      <property name="simpl_radio_but" stdset="0">
+       <string>set</string>
+      </property>
+      <property name="radio_but_I2S_unchecked" stdset="0">
+       <string>unchecked</string>
+      </property>
+      <property name="radio_but_I2S_checked" stdset="0">
+       <string>checked</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="right16radio">
+      <property name="text">
+       <string>Right Justified 16</string>
+      </property>
+      <property name="simpl_radio_but" stdset="0">
+       <string>set</string>
+      </property>
+      <property name="radio_but_I2S_unchecked" stdset="0">
+       <string>unchecked</string>
+      </property>
+      <property name="radio_but_I2S_checked" stdset="0">
+       <string>checked</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="right18radio">
+      <property name="text">
+       <string>Right justified 18</string>
+      </property>
+      <property name="simpl_radio_but" stdset="0">
+       <string>set</string>
+      </property>
+      <property name="radio_but_I2S_unchecked" stdset="0">
+       <string>unchecked</string>
+      </property>
+      <property name="radio_but_I2S_checked" stdset="0">
+       <string>checked</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="right20radio">
+      <property name="text">
+       <string>Right justified 20</string>
+      </property>
+      <property name="simpl_radio_but" stdset="0">
+       <string>set</string>
+      </property>
+      <property name="radio_but_I2S_unchecked" stdset="0">
+       <string>unchecked</string>
+      </property>
+      <property name="radio_but_I2S_checked" stdset="0">
+       <string>checked</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="right24radio">
+      <property name="text">
+       <string>Right justified 24</string>
+      </property>
+      <property name="simpl_radio_but" stdset="0">
+       <string>set</string>
+      </property>
+      <property name="radio_but_I2S_unchecked" stdset="0">
+       <string>unchecked</string>
+      </property>
+      <property name="radio_but_I2S_checked" stdset="0">
+       <string>checked</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QFrame" name="verticalFrame_2">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>10</y>
+     <width>321</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_4_DA">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>I2S FRAME SIZE</string>
+      </property>
+      <property name="lable_radio_butto_header" stdset="0">
+       <string>set</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="frame16">
+      <property name="text">
+       <string>2 x 16 bit</string>
+      </property>
+      <property name="simpl_radio_but" stdset="0">
+       <string>set</string>
+      </property>
+      <property name="radio_but_I2S_unchecked" stdset="0">
+       <string>unchecked</string>
+      </property>
+      <property name="radio_but_I2S_checked" stdset="0">
+       <string>checked</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="frame24">
+      <property name="text">
+       <string>2 x 24 bit</string>
+      </property>
+      <property name="simpl_radio_but" stdset="0">
+       <string>set</string>
+      </property>
+      <property name="radio_but_I2S_unchecked" stdset="0">
+       <string>unchecked</string>
+      </property>
+      <property name="radio_but_I2S_checked" stdset="0">
+       <string>checked</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="frame32">
+      <property name="text">
+       <string>2 x 32 bit</string>
+      </property>
+      <property name="simpl_radio_but" stdset="0">
+       <string>set</string>
+      </property>
+      <property name="radio_but_I2S_unchecked" stdset="0">
+       <string>unchecked</string>
+      </property>
+      <property name="radio_but_I2S_checked" stdset="0">
+       <string>checked</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QFrame" name="verticalFrame">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>230</y>
+     <width>261</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QLabel" name="label_3_DA">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>I2S BIT CLOCK (SCK) POLARITY</string>
+      </property>
+      <property name="lable_radio_butto_header" stdset="0">
+       <string>set</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="sckpolRisingradio">
+      <property name="text">
+       <string>Rising</string>
+      </property>
+      <property name="simpl_radio_but" stdset="0">
+       <string>set</string>
+      </property>
+      <property name="radio_but_I2S_unchecked" stdset="0">
+       <string>unchecked</string>
+      </property>
+      <property name="radio_but_I2S_checked" stdset="0">
+       <string>checked</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="sckpolFallingRadio">
+      <property name="text">
+       <string>Falling</string>
+      </property>
+      <property name="simpl_radio_but" stdset="0">
+       <string>set</string>
+      </property>
+      <property name="radio_but_I2S_unchecked" stdset="0">
+       <string>unchecked</string>
+      </property>
+      <property name="radio_but_I2S_checked" stdset="0">
+       <string>checked</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QFrame" name="verticalFrame">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>230</y>
+     <width>321</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_4">
+    <item>
+     <widget class="QLabel" name="label_5_DA">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>I2S WORD SELECTED (WS) POLARITY</string>
+      </property>
+      <property name="lable_radio_butto_header" stdset="0">
+       <string>set</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="wsPolRise">
+      <property name="text">
+       <string>Low period first</string>
+      </property>
+      <property name="simpl_radio_but" stdset="0">
+       <string>set</string>
+      </property>
+      <property name="radio_but_I2S_unchecked" stdset="0">
+       <string>unchecked</string>
+      </property>
+      <property name="radio_but_I2S_checked" stdset="0">
+       <string>checked</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="wsPolFall">
+      <property name="text">
+       <string>High period first</string>
+      </property>
+      <property name="simpl_radio_but" stdset="0">
+       <string>set</string>
+      </property>
+      <property name="radio_but_I2S_unchecked" stdset="0">
+       <string>unchecked</string>
+      </property>
+      <property name="radio_but_I2S_checked" stdset="0">
+       <string>checked</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QFrame" name="verticalFrame">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>330</y>
+     <width>261</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_5">
+    <item>
+     <widget class="QLabel" name="label_6_DA">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>I2S LEF/RIGHT DATA ORDER</string>
+      </property>
+      <property name="lable_radio_butto_header" stdset="0">
+       <string>set</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="LeftFirst">
+      <property name="text">
+       <string>Left first</string>
+      </property>
+      <property name="simpl_radio_but" stdset="0">
+       <string>set</string>
+      </property>
+      <property name="radio_but_I2S_unchecked" stdset="0">
+       <string>unchecked</string>
+      </property>
+      <property name="radio_but_I2S_checked" stdset="0">
+       <string>checked</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="RightFirst">
+      <property name="text">
+       <string>Right First</string>
+      </property>
+      <property name="simpl_radio_but" stdset="0">
+       <string>set</string>
+      </property>
+      <property name="radio_but_I2S_unchecked" stdset="0">
+       <string>unchecked</string>
+      </property>
+      <property name="radio_but_I2S_checked" stdset="0">
+       <string>checked</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QFrame" name="verticalFrame_2">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>330</y>
+     <width>321</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_6">
+    <item>
+     <widget class="QLabel" name="label_7_DA">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>I2S WORD BIT ORDER </string>
+      </property>
+      <property name="lable_radio_butto_header" stdset="0">
+       <string>set</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="msbfirst">
+      <property name="text">
+       <string>MSB first</string>
+      </property>
+      <property name="simpl_radio_but" stdset="0">
+       <string>set</string>
+      </property>
+      <property name="radio_but_I2S_unchecked" stdset="0">
+       <string>unchecked</string>
+      </property>
+      <property name="radio_but_I2S_checked" stdset="0">
+       <string>checked</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="lsbfirst">
+      <property name="text">
+       <string>LSB first</string>
+      </property>
+      <property name="simpl_radio_but" stdset="0">
+       <string>set</string>
+      </property>
+      <property name="radio_but_I2S_unchecked" stdset="0">
+       <string>unchecked</string>
+      </property>
+      <property name="radio_but_I2S_checked" stdset="0">
+       <string>checked</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

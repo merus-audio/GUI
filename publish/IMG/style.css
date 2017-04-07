@@ -1,0 +1,762 @@
+
+QPushButton
+ {
+    font-family: "Segoe UI";
+	font-size: 10pt;
+	font-weight: 500;
+	color: rgb(230, 230, 230);	
+ }
+
+
+/*  =========================== QMAINWINDOW ===================================== */
+QMainWindow
+    {  
+		background: url(:/IMG/assets 2/bg/bg_texture.png)  stretch stretch; 
+	}
+	
+QMainWindow WindowTitle
+    {  
+	font-family: "Segoe UI";
+	font-size: 10pt;
+	font-weight: 500;
+	color: rgb(20, 20, 20);	
+	}
+	
+	
+ QMenu {
+     margin: 0px; 
+ }	
+ 
+QMenu,
+QMenuBar
+  {
+	font-family: "Segoe UI";
+	font-size: 11pt;
+	font-weight: 300;	
+}
+	
+QMenu:enabled, 
+QMenuBar:enabled,
+QMenuBar::item:enabled       
+{ background-color: rgb(220, 220, 220);}
+
+QMenu::item:enabled:selected ,
+QMenuBar::item:enabled:selected      
+{ 
+			background-color: rgb(98, 125, 140);
+			color: rgb(230, 230, 230);	
+}
+
+
+QMenu:enabled,
+QMenuBar:enabled
+  {
+	font-weight: 300;
+	color: rgb(20, 20, 20);	
+	
+}
+
+QMenuBar:disabled
+  {
+	background-color: rgb(98, 125, 140);	
+}
+
+QMenu::item:disabled
+{
+	background-color: rgb(230, 230, 230);
+	color: rgb(200, 200, 200);	
+}
+
+ 
+ /* ===========================QFRAME POWER MODE ===================================== */
+ 
+ QFrame#verticalFrame_Program_control{  
+					border-image: url(:/IMG/assets 2/device/device_bg.png) 10 0 31 0;
+					border-width: 10px 0px 31px 0px;
+	}
+
+ 
+ QFrame#verticalFrame_PM_control{  
+					border-image: url(:/IMG/assets 2/display/display_1_bg.png) 10 0 31 0;
+					border-width: 10px 0px 31px 0px;
+	}
+	
+	 
+
+QFrame#verticalFrame_Program_Soft_Cliping {
+					border-image: url(:/IMG/assets 2/audioprocessor/DAP_frame.png) 10 0 10 0;
+					border-width: 10px 0px 10px 0px;
+}
+	
+/*=======================================================================================*/ 
+
+ 
+
+/* ===========================QPUSHBUTTON CENTRAL TYPE ===================================== */
+
+QPushButton[PushButtonCentral=true]  
+ {
+    border-image: url(:/IMG/assets 2/buttons_new/square_normal.png)  5 5 5 5;
+	border-width: 5px;
+ }
+
+ QPushButton:hover:pressed[PushButtonCentral_PressedHover=true],	
+QPushButton:checked[PushButtonCentral_Checked=true],  
+QPushButton:checked:hover[PushButtonCentral_CheckedHover=true]  	
+ {
+    border-image: url(:/IMG/assets 2/buttons_new/square_pressed.png)  5 5 5 5;
+	border-width: 5px;
+ }
+
+
+QPushButton:hover[PushButtonCentral_Hover=true]  
+ {
+    border-image: url(:/IMG/assets 2/buttons_new/square_hover.png)  5 5 5 5;
+	border-width: 5px;
+ }
+ 
+ QPushButton:disabled[PushButtonCentral_Disabled=true]  
+ {
+    border-image: url(:/IMG/assets 2/buttons_new/square_disable.png)  5 5 5 5;
+	border-width: 5px;
+	color: rgb(170, 170, 170);	
+ }
+
+ /*===========================QPUSHBUTTON LEFT TYPE =======================================*/
+
+QPushButton[PushButtonLeft=true]  
+ {
+    border-image: url(:/IMG/assets 2/buttons_new/l_round_normal.png)  5 5 5 5;
+	border-width: 5px;
+ }
+
+QPushButton:hover:pressed[PushButtonLeft_PressedHover=true],
+QPushButton:checked[PushButtonLeft_Checked=true],
+QPushButton:checked:hover[PushButtonLeft_CheckedHover=true] 
+ {
+    border-image: url(:/IMG/assets 2/buttons_new/l_round_pressed.png)  5 5 5 5;
+	border-width: 5px;
+ }
+ 
+QPushButton:hover[PushButtonLeft_Hover=true]
+ {
+    border-image: url(:/IMG/assets 2/buttons_new/l_round_hover.png)  5 5 5 5;
+	border-width: 5px;
+ }
+
+ /*===========================QPUSHBUTTON RIGHT TYPE =======================================*/
+ 
+QPushButton[PushButtonRifht=true]
+ {
+    border-image: url(:/IMG/assets 2/buttons_new/r_round_normal.png)  5 5 5 5;
+	border-width: 5px; 
+ }
+ 
+QPushButton:hover:pressed[PushButtonRight_Pressed=true],
+QPushButton:checked[PushButtonRifht_Checked=true],
+QPushButton:checked:hover[PushButtonRifht_CheckedHover=true]
+ {
+    border-image: url(:/IMG/assets 2/buttons_new/r_round_pressed.png)  5 5 5 5;
+	border-width: 5px; 
+ }
+ 
+QPushButton:hover[PushButtonRifht_Hover=true]
+ {
+    border-image: url(:/IMG/assets 2/buttons_new/r_round_hover.png)  5 5 5 5;
+	border-width: 5px;
+ }
+
+
+ 
+
+/* ===========================QPUSHBUTTON RECONNECT===================================== */ 
+  QPushButton:enabled#pushButtonRec
+ {
+    border-image: url(:/IMG/assets 2/buttons_new/reconnect_normal.png)  5 5 5 5;
+	border-width: 5px;
+ }
+ 
+ 
+ QPushButton:enabled:pressed#pushButtonRec,
+ QPushButton:enabled:pressed:hover#pushButtonRec
+ {
+    border-image: url(:/IMG/assets 2/buttons_new/reconnect_pressed.png)  5 5 5 5;
+	border-width: 5px; 
+ }
+
+  QPushButton:enabled:hover#pushButtonRec
+ {
+    border-image: url(:/IMG/assets 2/buttons_new/reconnect_hover.png)  5 5 5 5;
+	border-width: 5px; 
+ }
+	
+ QPushButton:disabled#pushButtonRec
+ {
+    border-image: url(:/IMG/assets 2/buttons_new/reconnect_disable.png)  5 5 5 5;
+	border-width: 5px;
+ }
+/*=======================================================================================*/
+ 
+ 
+/* ===========================QPUSHBUTTON SEPARATE===================================== */ 
+  QPushButton:enabled[PushButtonSeparate_Enabled=true]
+ {
+    border-image: url(:/IMG/assets 2/buttons_new/rounded_normal.png)  5 5 5 5;
+	border-width: 5px;
+ }
+ 
+ QPushButton:enabled:pressed[PushButtonSeparate_EnabledPressed=true],
+ QPushButton:enabled:pressed:hover[PushButtonSeparate_EnabledPressedHover=true]
+ {
+    border-image: url(:/IMG/assets 2/buttons_new/rounded_pressed.png)  5 5 5 5;
+	border-width: 5px;
+ }
+ 
+  QPushButton:enabled:hover[PushButtonSeparate_EnabledHover=true]
+ {
+    border-image: url(:/IMG/assets 2/buttons_new/rounded_hover.png)  5 5 5 5;
+	border-width: 5px;
+ }
+ 	
+ QPushButton:disabled[PushButtonSeparate_Disabled=true]
+ {
+    border-image: url(:/IMG/assets 2/buttons_new/rounded_disable.png)  5 5 5 5;
+	border-width: 5px;
+	color: rgb(170, 170, 170);	
+ }
+/*=======================================================================================*/
+ 
+ 
+ /* ===========================QLABLE GLOBAL  ========================================== */   
+  QLabel:enabled
+ {
+     background-color: transparent;
+	 color: rgb(240, 240, 240);
+ }
+
+  QLabel:disabled
+ {
+     background-color: transparent;
+	 color: rgb(240, 240, 240);
+ }
+ 
+ 
+ /* ===========================QLABLE POWER MODE MONITOR =============================== */ 
+
+QLabel:enabled[color_indication_on=indication_on]
+ {
+     color : rgb( 57, 197, 255);
+ }
+
+QLabel:disabled[color_indication_off=indication_off]
+ {
+     color : rgb(77, 77, 77);
+ }
+/*=======================================================================================*/
+ 
+ /* ===========================QRADIOBUTTON GLOBAL =============================== */ 
+  QRadioButton:checked:disabled  
+  { 
+		
+	color : rgb(255, 255, 255); 
+  }
+  
+
+/* ===========================QRADIOBUTTON DEV STATE =============================== */ 
+ 
+ QRadioButton::indicator:unchecked:disabled#RadioButtonDeviceStatus  		
+  { 
+	border-image: url(:/IMG/assets 2/leds/indicator_off.png) stretch stretch;
+	width: 30px;
+	height: 30px;
+	
+  }
+  
+  QRadioButton::indicator:checked:disabled#RadioButtonDeviceStatus  
+  { 
+	border-image: url(:/IMG/assets 2/leds/indicator_on.png) stretch stretch;
+      width: 30px;
+	 height: 30px;	
+  }
+  
+/*=======================================================================================*/ 
+  
+  
+ /*-----------------------------------------------------------------NEW WINDOW-----------------------------------*/
+ 
+  
+ /* ===========================QFRAME===================================== */
+ 
+ QFrame#verticalFrame_scroll_contro_left,
+ QFrame#verticalFrame_scroll_contro_right
+ {  
+					border-image: url(:/IMG/assets 2/audioprocessor/DAP_frame.png) stretch stretch; 
+  }
+
+ 
+ QFrame#verticalFrame_state_Clipping_Ocured,
+ QFrame#verticalFrame_State_Limitr_active
+ {  
+		border-image: url(:/IMG/assets 2/display small/display_small_bg.png) center center no-repeat; 
+ }
+	
+	
+/*================================QPUSHBUTTON CENTRAL===================================*/ 
+
+   QPushButton:enabled[QPushButtonCentral=true]
+ {
+    border-image: url(:/IMG/assets 2/buttons_new/lr_round_normal.png) 5 5 5 5; 
+	border-width: 5px; 
+ }
+ 
+   QPushButton:enabled:checked[QPushButtonCentral_EnableChecked=true],
+   QPushButton:enabled:checked:hover[QPushButtonCentral_EnableCheckedHover=true],
+   QPushButton:enabled:pressed[QPushButtonCentral_EnablePresed=true],
+   QPushButton:enabled:hover:pressed[QPushButtonCentral_EnableHoverPresed=true]
+ {
+    border-image: url(:/IMG/assets 2/buttons_new/lr_round_pressed.png) 5 5 5 5; 
+	border-width: 5px; 
+ }
+ 
+
+  QPushButton:enabled:hover[QPushButtonCentral_EnableHover=true]
+ {
+    border-image: url(:/IMG/assets 2/buttons_new/lr_round_hover.png)  5 5 5 5; 
+	border-width: 5px;
+ }
+ 
+
+
+
+/*===========================QSLIDER============================================================*/
+
+
+ QSlider::groove:vertical {
+	 border: 2px solid rgb(0, 0, 0);
+	 background: rgb(108,108,108);	 
+     width: 4px;
+	 border-radius: 4px;
+ }
+
+ QSlider::handle:vertical {
+     height: 79px;
+	 margin: 0 -16px; 
+     
+ }
+ 
+ QSlider::handle:vertical{	  
+     border-image: url(:/IMG/assets 2/slider/lider_normal.png); 
+ }
+ 
+  QSlider::handle:vertical:focus{
+     border-image: url(:/IMG/assets 2/slider/lider_active_hover.png); 
+ }
+ 
+
+ QSlider::add-page:vertical#mrvol {
+	 border: 2px solid rgb(0, 0, 0);	 	 
+	 background: rgb(57, 197, 255);	 
+     width: 4px;
+	 border-radius: 4px;
+ }
+
+ 
+QSlider::sub-page:vertical#mrvol {
+	 border: 2px solid rgb(0, 0, 0);
+     background: rgb(108,108,108);
+     width: 4px;
+	 border-radius: 4px;
+ }
+
+/*=======================================================================================*/
+
+
+
+/* ===========================QLABLE GLOBAL  ========================================== */   
+  QLabel[lbl_type="vol"]
+ {
+     border: 1px solid rgb(100, 100, 100);
+	 background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, 
+										stop: 0 rgb(200,200,200), stop: 0.2 rgb(255,255,255)
+										stop: 1 rgb(200,200,200), stop: 0.8 rgb(255,255,255)
+										); 																		
+	border-radius: 5px;
+	font-family: "Segoe UI";
+	font-size: 8pt;
+	font-weight: bold;
+	color: rgb(51, 74, 88);		
+ }
+ 
+  QLabel[QLabelMainBig_SegoeUI12pt=true] 
+ {
+	font-family: "Segoe UI";
+	font-size: 12pt;
+	font-weight: 500;
+	color: rgb(230, 230, 230);				
+ }
+
+ 
+  QLabel#label_17,
+  QLabel#label_18
+ {
+	font-family: "Segoe UI";
+	font-size: 11pt;
+	font-weight: 500;
+	color: rgb(230, 230, 230);				
+ }
+
+
+
+/* ===========================QRADIOBUTTON DEV STATE =============================== */ 
+ 
+  QRadioButton[radio_but_font=radibut_font]  		
+  { 
+	font-family: "Segoe UI";
+	font-size: 11pt;
+	font-weight: 300;
+	color: rgb(230, 230, 230);		
+  }
+
+ QRadioButton::indicator:unchecked[radio_but_unchecked=unchecked]  		
+  { 
+	border-image: url(:/IMG/assets 2/leds/indicator_off.png) stretch stretch;
+	width:  25px;
+	height: 25px;	
+  }
+  
+   QRadioButton::indicator:checked[radio_but_checked=checked]  	
+  { 
+	border-image: url(:/IMG/assets 2/leds/indicator_blue.png) stretch stretch;
+    width: 25px;
+	height: 25px; 
+  }
+
+ 
+ 
+/*---------------------------------------------------------------------------------*/  
+/*-----------------------------I2S SETUP WINDOW------------------------------------*/
+/*---------------------------------------------------------------------------------*/ 
+ 
+ QDialog
+    {  
+		background: url(:/IMG/assets 2/bg/bg_texture.png)  stretch stretch; 
+	}
+ 
+ QLabel:disabled[color_indication_off=indication_off]
+ {
+     color : rgb(77, 77, 77);
+ }
+
+ 
+ /* =====================LABLE QRADIOBUTTON =============================== */ 
+   QLabel[lable_radio_butto_header=set]
+ {
+	font-family: "Segoe UI";
+	font-size: 12pt;
+	font-weight: 500;
+	color: rgb(230, 230, 230);				
+ }
+ 
+ 
+ 
+/* ===========================QRADIOBUTTON=============================== */ 
+  QRadioButton[simpl_radio_but=set] 
+  { 
+	font-family: "Segoe UI";
+	font-size: 9pt;
+	font-weight: 500;
+	color: rgb(230, 230, 230);	
+  }
+ 
+  QRadioButton::indicator:unchecked[radio_but_I2S_unchecked=unchecked]  		
+  { 
+	border-image: url(:/IMG/assets 2/radiobutton/radiobatton_normal.png) stretch stretch;
+	width:  15px;
+	height: 15px;	
+  }
+  
+   QRadioButton::indicator:checked[radio_but_I2S_checked=checked]  	
+  { 
+	border-image: url(:/IMG/assets 2/radiobutton/radiobatton_selected.png) stretch stretch;
+    width: 15px;
+	height: 15px; 
+  }
+  
+
+ 
+/*--------------------------------------------------------------------------------*/  
+/*------------------------REGISTER WINDOW-----------------------------------------*/
+/*--------------------------------------------------------------------------------*/
+
+ 
+/*=========================QSCROLLAREA============================================*/
+ 
+ QScrollArea QWidget
+ {
+	 background: url(:/IMG/assets 2/bg/bg_texture.png)  stretch stretch;	
+ }
+ 
+ /*=========================QSCROLL (as a part of QSCROLLAREA)===========*/
+
+ QScrollBar:vertical 
+ {
+      border: none;
+      background: rgb(189,195,199);
+      width: 20px;
+      margin: 20px 0 20px 0;
+  }
+  QScrollBar::handle:vertical 
+  {
+      background: rgb(138,143,151);
+      min-height: 20px;
+  }
+  QScrollBar::add-line:vertical 
+  {
+      border: non;
+      background: non;
+      height: 20px;
+      subcontrol-position: bottom;
+      subcontrol-origin: margin;
+  }
+
+  QScrollBar::sub-line:vertical 
+  {
+      border: non;
+      background: non;
+      height: 20px;
+      subcontrol-position: top;
+      subcontrol-origin: margin;
+  }
+  
+QScrollBar::up-arrow:vertical 
+{
+      border-image: url(:/IMG/assets 2/ScrollBar/up.png) stretch stretch;
+  }
+  
+  QScrollBar::down-arrow:vertical 
+  {
+      border-image: url(:/IMG/assets 2/ScrollBar/down.png) stretch stretch;
+  }
+  
+
+  QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical 
+  {
+      background: none;
+  }
+ /*=========================QLABLE============================================*/
+ QLabel[lable_register_brouser=set]
+ {
+	background: url(:/IMG/assets 2/bg/bg_texture.png)  stretch stretch;			
+ }
+ 
+  QLabel[lable_register_brouser_num_bit="true"]
+ {
+	font-family: "Segoe UI";
+	font-size: 10pt;
+	font-weight: 500;
+	color: rgb( 57, 197, 255);
+	
+ }
+
+ 
+  QLabel[lable_register_brouser_label_head="true"]
+ {
+	font-family: "Segoe UI";
+	font-size: 10pt;
+	font-weight: 500;
+	color: rgb( 230, 230, 230);	
+ }
+ 
+
+ 
+ 
+   QLabel[lable_register_brouser_label_reg=set]
+ {
+	font-family: "Segoe UI";
+	font-size: 10pt;
+	font-weight: 500;
+	color: rgb( 230, 230, 230);	
+ }
+ 
+ 
+ /*========================QCHECKBOXWIDGET=======================================*/
+QWidget:focus#Register_conteiner
+{
+	background: rgb(100,100,100);	
+}
+ 
+ 
+ /*=========================QCHECKBOX============================================*/
+ QCheckBox::indicator:unchecked:enabled
+ {
+	border-image: url(:/IMG/assets 2/checkbox/checkbox_normal.png) stretch stretch;	 
+ }
+ 
+  QCheckBox::indicator:checked:enabled
+ {
+	border-image: url(:/IMG/assets 2/checkbox/checkbox_checked.png) stretch stretch;	 
+ }
+ 
+  
+  QCheckBox::indicator:disabled
+ {
+	border-image: url(:/IMG/assets 2/checkbox/checkbox_disabled.png) stretch stretch;	 
+ }
+ 
+   QCheckBox::indicator:checked:disabled
+ {
+	border-image: url(:/IMG/assets 2/checkbox/checkbox_disabled_checked.png) stretch stretch;	 
+ }
+ 
+ 
+  /*=========================QFARME============================================*/
+ 
+  QFrame#gridFrame_clear_error{  
+		border-image: url(:/IMG/assets 2/audioprocessor/DAP_frame.png) stretch stretch; 
+		border-radius: 10px;
+	}
+ 
+ 
+ /*--------------------------------------------------------------------------------*/  
+/*------------------------ERROR VECTOR WINDOW--------------------------------------*/
+/*--------------------------------------------------------------------------------*/
+ 
+ 
+ /* ===========================QPUSHBUTTON CLEAR ERROR===================================== */ 
+ 
+    QPushButton#pushButton_clear_error
+ {
+	font-family: "Segoe UI";
+	font-size: 8pt;
+	font-weight: 500;
+	color: rgb( 230, 230, 230);	
+ }
+
+ QLabel:enabled[lable_error_reg_enabled="true"]
+ {
+	font-family: "Segoe UI";
+	font-size: 10pt;
+	font-weight: 500;
+	color: rgb( 57, 197, 255);	
+ }
+ 
+  QLabel:disabled[lable_error_reg_disabled="true"]
+ {
+	font-family: "Segoe UI";
+	font-size: 10pt;
+	font-weight: 500;
+	color: rgb( 230, 230, 230);	
+ }
+
+/*
+  QLabel[lable_error_reg_enabled_blue=true]
+ {
+	font-family: "Segoe UI";
+	font-size: 10pt;
+	font-weight: 500;
+	color: rgb( 57, 197, 255);	
+ }
+ 
+  QLabel[lable_error_reg_disabled_white=true]
+ {
+	font-family: "Segoe UI";
+	font-size: 10pt;
+	font-weight: 500;
+	color: rgb( 230, 230, 230);	
+ }
+  */
+ 
+ 
+    QCheckBox::indicator:checked:disabled[QCheckBoxBlue_DisableCheked=true]
+ {
+	border-image: url(:/IMG/assets 2/checkbox/checkbox_disabled_checked_blue.png) stretch stretch;	 
+ }
+ 
+/*=======================================================================================*/
+ 
+ 
+ 
+/*--------------------------------------------------------------------------------*/  
+/*------------------------------ABOUT WINDOW--------------------------------------*/
+/*--------------------------------------------------------------------------------*/
+ 
+ 
+ /* ===========================QPUSHBUTTON CLEAR ERROR===================================== */ 
+ 
+  QPushButton#AboutOkpushButton
+ {
+	font-family: "Segoe UI";
+	font-size: 8pt;
+	font-weight: 500;
+	color: rgb( 230, 230, 230);	
+ }
+ 
+ QFrame[QFrameAbout_BorderImage=true]
+ {
+	 border-image: url(:/IMG/assets 2/About/popup_bg_1.png) 15 15 15 15;
+	 border-width: 15px;
+ }
+  QFrame[QFrameLogo_BorderImage=true]
+ {
+	 border-image: url(:/IMG/Merus_alfa_logo.png) stretch;
+ }
+ 
+/*=======================================================================================*/
+ 
+ 
+ 
+ 
+ 
+/*--------------------------------------------------------------------------------*/  
+/*------------------------MESSAGE BOX PROGRAM-------------------------------------*/
+/*--------------------------------------------------------------------------------*/
+ 
+ QMessageBox 
+ {
+	background: url(:/IMG/assets 2/bg/bg_texture.png)  stretch stretch; 
+	
+	font-family: "Segoe UI";
+	font-size: 12pt;
+	font-weight: 500;
+	color: rgb( 230, 230, 230);	
+	text-align: center;
+ }
+ 
+ QMessageBox QPushButton 
+ {
+
+	height: 25px;
+	width:  80px;
+	font-family: "Segoe UI";
+	font-size: 14pt;
+	font-weight: 500;
+	color: rgb( 230, 230, 230);	
+	text-align: center;
+ }
+
+  QMessageBox QPushButton:enabled
+ {
+    border-image: url(:/IMG/assets 2/buttons_new/rounded_normal.png)  5 5 5 5;
+	border-width: 5px;
+ }
+ 
+ QMessageBox QPushButton:enabled:pressed,
+ QMessageBox QPushButton:enabled:pressed:hover
+ {
+    border-image: url(:/IMG/assets 2/buttons_new/rounded_pressed.png)  5 5 5 5;
+	border-width: 5px;
+ }
+ 
+  QMessageBox QPushButton:enabled:hover
+ {
+    border-image: url(:/IMG/assets 2/buttons_new/rounded_hover.png)  5 5 5 5;
+	border-width: 5px;
+ }
+ 	
+ QMessageBox QPushButton:disabled
+ {
+    border-image: url(:/IMG/assets 2/buttons_new/rounded_disable.png)  5 5 5 5;
+	border-width: 5px;
+	color: rgb(170, 170, 170);	
+ }
+ 
