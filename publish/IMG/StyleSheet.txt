@@ -1,3 +1,0 @@
-background-image: - img - текстура
-border-image:     - img - растянутая (из сохранением пропорций)
-background:       - img - текстура

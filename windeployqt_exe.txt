@@ -1,1 +1,0 @@
-windeployqt.exe --compiler-runtime  "C:\Merus_Audio\device_GUI_register_monitor\release\1\MA120xx_GUI.exe"
