@@ -4,3 +4,9 @@ It's a piece of software to configure Merus Audio eximo® chips: MA12040(P) and 
 So, get your hands on one of our devices, connect it to your PC and use this piece of software to explore all the possibilities.
 
 ![exiomo chip long](https://github.com/merus-audio/GUI/blob/master/images/eximo_chip_strip_longer_nice.png?raw=true)
+
+![GUI main](https://github.com/merus-audio/GUI/blob/master/images/main_window.png?raw=true)
+
+![GUI main](https://github.com/merus-audio/GUI/blob/master/images/DAP.png?raw=true)
+
+![GUI main](https://github.com/merus-audio/GUI/blob/master/images/I2S.png?raw=true)
