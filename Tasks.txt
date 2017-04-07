@@ -1,0 +1,8 @@
+
++          If I load and program a configuration with the “Digital Audio processing” window open it does not seem to update this window. Would be nice if it did.
+-          The “Digital Audio” button is actually obsolete for our current devices. This button can be removed.
++          You can remove the complete “Documentation” menu; I am not planning to use it.
++          Instead it would maybe be nice to have a small “about” window which indicates company name and software version. Would that be hard to do?
++          You can also remove  “Device Info” under “Device” menu.
+-          The processor part of the GUI only works for “P” devices (MA12040 and MA12070P) because they have the processor on board. The “non-P” devices (MA12040 and MA12070 do not have the processor on board. For these devices it does not make sense to have that part of the GUI active. Can you disable the processor (and I2S config) part of the GUI for “non-P” devices?
+-          We have a soft clipping feature which we would like to give more emphasis. Soft clipping can be enabled by setting bit 7 of address 10. We would like to have a button on the main screen to enable and disable this feature.  
