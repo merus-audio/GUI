@@ -889,7 +889,7 @@ QString DeviceControl::get_device_id()
     }
 
     // determine P or non-P version
-    au_in_mode = get_fuse_bits();
+    au_in_mode = audio_in_mode_mon;
 
     if(au_in_mode == 4)
     {
@@ -897,7 +897,7 @@ QString DeviceControl::get_device_id()
     }
     else
     {
-
+        str_id.append("");
     }
 
     return str_id;
