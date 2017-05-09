@@ -81,7 +81,7 @@ RegisterBrowser::RegisterBrowser(QWidget *parent) :
     innerWidget->setContentsMargins(0,(60*scl)/winW_rat,0,0);
 
     naddress = 216;                                                          //set number of address entries; 269 for full registers rev6,(216 - register configuration part GERASIMCHUK)
-    naddress = 61;                                                           //set number of address entries; 44 for datasheet registers rev6
+    naddress = 62;                                                           //set number of address entries; 44 for datasheet registers rev6
 
     setWindowTitle("Register Browser");
 

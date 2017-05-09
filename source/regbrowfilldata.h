@@ -23,6 +23,7 @@ QString const_data[][12] =
  {" 30","f","f","-","-","1","1","-","-","PM2_man","Out"," Custom profile PM2 contents. 0=>A; 1=>B; 2=>C; 3=>D "},
  {" 30","f","f","-","-","-","-","1","1","PM1_man","Out"," Custom profile PM1 contents. 0=>A; 1=>B; 2=>C; 3=>D "},
  {" 32","0","-","-","-","-","-","-","-","ocp_latch_clear","Out","Low-high clears current OCP latched condition."},
+ {" 37","0","0","0","-","-","-","-","-","audio_in_mode","Out","Audio input mode; 0-1-2-3-4-5"},
  {" 38","f","f","f","f","-","1","-","-","eh_dcShdn","Out","High to enable DC protection"},
  {" 39","-","0","-","-","-","-","-","-","oc_thr_ext","Out","High to use reg bank setting"},
  {" 39","0","-","-","-","-","-","-","-","oc_blnk_ext","Out","High to use reg bank setting"},
@@ -66,7 +67,6 @@ QString const_data[][12] =
  {"126","0","0","0","0","-","-","-","-","audio_proc_limiter_mon","In","b7-b4: Channel 3-0 limiter active"},
  {"126","-","-","-","-","0","0","0","0","audio_proc_clip_mon","In","b3-b0: Channel 3-0 clipping monitor"},
  {"127","0","0","0","0","0","0","0","0","hw_version","In","Hardware version ID number"}};
-
 
 // -------------------------------MODE REGISTER DESCRIPTION--------------------------------------
 QVector< QVector<QString> >  mode_reg={
