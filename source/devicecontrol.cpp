@@ -627,12 +627,12 @@ void DeviceControl::get_dev_status_pol(unsigned char *reg_map, int device_state)
 
     // get and update device status
     if(device_state==DEVICE_FTDI_ERROR){
-        set_GUI_idle(0);
+        //set_GUI_idle(0);
         device_init_state=true;
         return;
     }
     else if(device_state==DEVICE_ERROR){
-        set_GUI_idle(1);
+        //set_GUI_idle(1);
         device_init_state=true;
         return;
     }
